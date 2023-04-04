@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    background-color: transparent;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 1px  rgb(235, 235, 235);
+}
+.coinbase-logo{
+    margin-left: 4px;
+    padding: 0px;
+}
+.LogoWrapper{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
+ul{
+    padding: 0px;
+    display: flex;
+    padding-top: 0px;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 120px;
+}
+
+li{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0px;
+    color:  rgb( 5, 15, 25);
+    vertical-align: baseline;
+    cursor: pointer;
+}
+.ii{
+    float: right;
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+
+}
+.info{
+    display: flex;
+    gap: 6px;
+
+}
+.sign-in{
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.sign-in:hover{
+    color: blue;
+}
+.Get{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    height: 34px;
+    padding-top: 0px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+
+/* wallet_img */
+.second_dex{ 
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 12px;
+    padding: 100px;
+} 
+#wallet_imgg{
+    background-size: contain;
+    height: 550px;
+}
+.Flex-l69ttv-0{
+    position: relative;
+    top: 30px;
+}
+.second_dex{
+    margin: 0px;
+    margin-left: -20px;
+}
+#jump_bluee{
+    color: blue;
+    font-family: 'Segoe UI';
+}
+.jump-start{
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 62px;
+    font-weight: 500;
+    width: 400px;
+    position: relative;
+    top: 15px;
+    line-height: 71.3px;
+}
+
+.coin-base-test-for-hear{
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+
+}
+.Boss_of_email{
+    display: flex;
+    gap: 10px;
+    padding-top: 65px;
+}
+.Email-input{
+    width: 280px;
+}
+.Get-ST{
+    background-color: rgb(0,82,255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+}
+
+.table_contr{
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI';
+    justify-content: center;
+}
+
+
+
+.content-table {
+    /* border-collapse: collapse; */
+    margin: 25px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    width: 1100px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    border: 1px solid rgb(238, 238, 238);
+    
+}
+
+.content-table thead tr {
+    background-color: white;
+    color:black;
+    font-size: 200;
+    font-weight: 100;
+    text-align: left;
+}
+.bit_imgg{
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    background-size: contain;
+}
+.eth_imgg{
+    height: 30px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+}
+.ADA_imgg{
+    height: 30px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+}
+.SOL_logo{
+    height: 30px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    border-radius: 500px;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid  red;
+}
+
+.content-table tbody tr:nth-of-type(1):hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.content-table tbody tr:nth-of-type(2):hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.content-table tbody tr:nth-of-type(3):hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.shit__4:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.oga_for_sectoin-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shi{
+    font-family: 'Segoe UI';
+}
+
+
+/* fourth */
+
+.four{
+    display: contents;
+    padding: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.fourth{
+    display: flex;
+    padding: 120px;
+    justify-content: center;
+}
+.create_ur{
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    vertical-align: baseline;
+    color: rgb( 10, 11, 13);
+    font-weight: 500;
+    padding: 5px;
+}
+
+.coin_variety{
+    position: relative;
+    left: 110px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(91, 97, 110);
+    font-family: 'Segoe UI';
+}
+
+
+.fourth_img_class{
+    height: 500px;
+    padding-left: 100px;
+}
+
+@media (max-width: 778px){
+  .nav{
+    position: fixed;
+    left: 50px;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 60%;
+    background-color: white;
+  }  
+
+  .coinbase-logo{
+    position: fixed;
+    top: 25px;
+    left: 20px;
+    right: 0;
+  }
+  .LogoWrapper{
+    display: contents;
+  } 
+  #menu{
+    display: block;
+    position: relative;
+    left: 70px;
+    top:  4px;
+    font-size: 30px;
+  }
+
+  ul li{
+    display: none;
+  }
+  .sign-in{
+    display: none;
+  }
+  .Get{
+    position: relative;
+    right: 60px;
+    height: 30px;
+    top: 4px;
+    width: 90px;
+  }
+
+  #jump_bluee{
+    position: relative;
+  }
+
+  .jump-start{
+    width: 300px;
+    position: relative;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    margin:  8px 0px 16px;
+  }
+  .coin-base-test-for-hear{
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .Boss_of_email{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between */
+  }
+  .Email-input{
+    background-color: white;
+    height: 50px;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 2px;
+    position: relative;
+    bottom: 10px;
+  }
+  .Get-ST{
+    width: 286px;
+  }
+  #wallet_imgg{
+    display: none;
+  }
+  .content-table{
+    width: 10px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+  }
+  .ff{
+    display: none;
+  }
+  .num{
+    display: none;
+  }
+}
